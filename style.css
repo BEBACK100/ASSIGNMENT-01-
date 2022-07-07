@@ -1,0 +1,188 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(donate2.jpg);
+    text-align: center;
+}
+
+.main-pic {
+    position: relative;
+    max-width: fit-content;
+    margin: 0 auto;
+
+}
+
+.main-pic img {
+    vertical-align: middle;
+}
+
+.main-text {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 1px 10px;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: black;
+    padding: 5px 10px;
+    color: red;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.main-pic {
+    text-align: center;
+}
+
+
+.Amount-tk h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    word-spacing: 45px;
+
+}
+
+.container {
+
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+
+}
+
+.Amount-tk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+.Amount-tk h5 {
+    background-color: azure;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+.Donate-plan {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.donate hr {
+    margin: 10px 170px 30px 170px;
+}
+
+#Kinds-of-plan {
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+.colum01,
+.colum02,
+.colum03 {
+    width: 280px;
+    float: left;
+    margin: 10px;
+
+}
+
+.colum01 {
+    background-color: antiquewhite;
+    background-image: url(symbol/food.png);
+    background-repeat: no-repeat;
+    padding: 50px 50px 15px 5px;
+
+
+
+}
+
+.colum02 {
+    background-color: aquamarine;
+    border-radius: 9px;
+    background-image: url(symbol/shelter.png);
+    background-repeat: no-repeat;
+    padding: 50px 15px 25px 15px;
+
+}
+
+.colum03 {
+    background-color: blueviolet;
+    border-radius: 15px;
+    background-image: url(symbol/Frame-1.png);
+    background-repeat: no-repeat;
+    padding: 50px 5px 25px 5px;
+}
+
+.subscrib {
+    justify-content: center;
+    display: flex;
+    background-color: aqua;
+    margin: 30px 300px;
+    padding: 60px 100px;
+    border: 50%;
+}
+
+#e1 {
+    background-color: blanchedalmond;
+}
+
+#s1 {
+    background-color: blueviolet;
+}
+
+.footer {
+    background-color: blueviolet
+}
+
+.footer h2 {
+    font-family: 'Arima', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Moonrocks', cursive;
+    padding-top: 45px;
+}
+
+.footer p {
+    padding-bottom: 39px;
+}
+
+.A {
+    display: flex;
+
+}
+
+.half-width {
+    width: 50%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.half-width-image {
+    width: 50%;
+    padding: 5px;
+    padding-top: 80px;
+}
